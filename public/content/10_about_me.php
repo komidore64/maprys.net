@@ -5,17 +5,17 @@
     [visitor@price ~]$ less /home/maprice/about_me.txt
   </code><br />
   <br />
-  I'm a senior at Elon University in Burlington, NC.
-  I am an avid gamer on the PC and Xbox 360 (also occasionally on older systems
-  like the Dreamcast, Playstation, and original Xbox) and on non-electronic
-  games, such as card games (Magic the Gathering) and board games (Settlers of Catan, Pandemic).
-  I've always enjoyed tinkering and playing on computers. This has lead
-  to a major in Computing Sciences which I highly enjoy. I'm currently working towards being a
-  programmer. This past summer I had the privilege of working at 
-  <a href="http://redhat.com" target="_blank">Red Hat</a> in Raleigh, NC
-  as a Software Engineering Intern. I worked on the <a href="http://katello.org" target="_blank">Katello</a>
-  project and gained experience collaborating with other engineers across the globe. I had a blast at
-  Red Hat and hope to continue working with this company in the future after graduation.<br />
+  I'm Adam!<br />
+  I'm a Software Engineer at <a href="http://redhat.com" target="_blank">Red Hat</a>.
+  I graduated from Elon University in May 2012 with degrees in Computer Science and Computer Information Systems.
+  I enjoy games of all kinds: video games (old and new), card games, board games, as well as tabletop RPGs like Pathfinder.
+  I program a lot in my spare time, on little projects here and there, but I haven't had anything make it big yet (fingers crossed).
+  Most of my programming experience started in Java, but I've spread out a bit more since starting at Red Hat using Ruby/Rails and Python.
+  I'm a total Git fanboy.
+  It's the best source-control tool out there!
+  My favorite editor is Vim.
+  There's nothing else that comes close!
+  Oh, and I like beer too.<br />
   <br />
   To contact me, please do so through <a href="http://profiles.google.com/komidore64">Google+</a>.
   <br />
