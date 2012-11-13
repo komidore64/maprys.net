@@ -4,8 +4,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <title>M. Adam Price</title>
   <link rel="stylesheet" type="text/css" href="resources/style/main.css" />
-  <script type="text/javascript" src="resources/js/jquery.js"></script>
-  <script type="text/javascript" src="resources/js/jquery_ui.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="http://isotope.metafizzy.co/jquery.isotope.min.js"></script>
   <script type="text/javascript" src="resources/js/animations.js"></script>
   <?php
     $page_files = array();
