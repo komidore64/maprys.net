@@ -1,4 +1,4 @@
-<div style="width: 60%; padding: 25px 25px 25px 25px; font-size: 110%;">
+<div style="width: 60%; padding: 25px; font-size: 110%;">
   <code>
     [visitor@price ~]$ users<br />
     visitor maprice<br />

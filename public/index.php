@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>M. Adam Price</title>
   <link rel="stylesheet" type="text/css" href="resources/style/main.css" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
@@ -22,7 +22,7 @@
     unset($page_index);
     unset($content_dir);
   ?>
-  <script>
+  <script type="text/javascript">
 
   var open_pane = null; // current open content
 
@@ -51,20 +51,13 @@
   </script>
 </head>
 <body>
-  <!-- Begin Wrapper -->
   <div id="wrapper">
 
-    <!-- Begin Header -->
     <div id="header" class="nodisplay">
-
       <span style="padding-left: 25px;" class="title-link">Michael "Adam" Price</span>
-
     </div>
-    <!-- End Header -->
 
-    <!-- Begin Naviagtion -->
     <div id="navigation" class="nodisplay">
-
       <?php
             foreach ($names as $n) {
             $no_num = preg_replace('/(\d){1,2}_/i', '', $n);
@@ -75,18 +68,14 @@
       <?php } ?>
 
     </div>
-    <!-- End Naviagtion -->
 
-    <!-- Begin Content -->
     <?php for ($i = 0; $i < count($names); $i++) { ?>
       <div class="content nodisplay" id="<?php echo $names[$i] . '_content'; ?>">
       <?php include('content/' . $page_files[$i]); ?>
       </div>
     <?php } ?>
-    <!-- End Content -->
 
   </div>
-  <!-- End Wrapper -->
 
 </body>
 </html>

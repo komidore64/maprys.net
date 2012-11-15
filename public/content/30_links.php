@@ -1,4 +1,4 @@
-<div style="width: 60%; padding: 25px 25px 25px 25px; font-size: 110%;">
+<div style="width: 60%; padding: 25px; font-size: 110%;">
   - technology -<br />
   <a href="http://gizmodo.com" target="_blank">Gizmodo</a><br />
   <a href="http://xkcd.com" target="_blank">xkcd</a> (techie humor)<br />
