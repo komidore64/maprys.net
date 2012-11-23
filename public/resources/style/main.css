@@ -1,87 +1,91 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 a:link {
-  color: #33b;
+    color: #33b;
 }
 
 a:hover {
-  color: #b33;
+    color: #b33;
 }
 
 .underline {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .nodisplay {
-  display: none;
+    display: none;
 }
 
 .title-link {
-  text-decoration: none;
-  color: #222;
-  cursor: pointer;
+    text-decoration: none;
+    color: #222;
+    cursor: pointer;
 }
 
 .title-link:hover {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 .nav-link {
-  margin: 0% 5% 0% 5%;
-  color: #888;
-  cursor: pointer;
+    margin: 0% 5% 0% 5%;
+    color: #888;
+    cursor: pointer;
 }
 
 .nav-link:link {
-  text-decoration: none;
-  color: #888;
+    text-decoration: none;
+    color: #888;
 }
 
 .nav-link:hover {
-  text-decoration: none;
-  color: #ccc;
+    text-decoration: none;
+    color: #ccc;
 }
 
 #wrapper {
-  margin: 0 auto;
-  width: 922px;
+    margin: 0 auto;
+    width: 922px;
 }
 
 #header {
-  text-align: left;
-  width: 900px;
-  padding: 50px 10px 50px 10px;
-  border: 1px solid #ccc;
-  background: #5c5d73;
-  font-size: 275%;
+    text-align: left;
+    width: 900px;
+    padding: 50px 10px 50px 10px;
+    border: 1px solid #ccc;
+    background: #5c5d73;
+    font-size: 275%;
 }
 
 #navigation {
-  width: 900px;
-  padding: 5px 10px 5px 10px;
-  border: 1px solid #ccc;
-  margin: 0px 0px 0px 0px;
-  background: #272840;
+    width: 900px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    margin: 0px 0px 0px 0px;
+    background: #272840;
 }
 
 .content {
-  width: 900px;
-  color: #333;
-  border: 1px solid #ccc;
-  background: #cacaca;
-  margin: 0px 0px 0px 0px;
-  padding: 10px;
+    width: 900px;
+    color: #333;
+    border: 1px solid #ccc;
+    background: #cacaca;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
 }
 
 #footer {
-  width: 900px;
-  color: #333;
-  border: 1px solid #ccc;
-  background: #BD9C8C;
-  margin: 0px 0px 10px 0px;
-  padding: 10px;
+    width: 900px;
+    color: #333;
+    border: 1px solid #ccc;
+    background: #BD9C8C;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
 }
