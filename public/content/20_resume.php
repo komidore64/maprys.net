@@ -34,9 +34,9 @@
     </div>
     <div class="resume_section">
         <p>WORK HISTORY</p>
+        <p>Red Hat Inc., Raleigh, NC<br />Software Engineer(July 2012 - present)</p>
         <p>Red Hat Inc., Raleigh, NC<br />Software Engineering Intern (summer 2011)</p>
         <p>New Breed Logistics, High Point, NC<br />Software Development Intern (summer 2010)</p>
-        <p>The Pavillion: Nastalgia Park, Myrtle Beach, SC<br />Ride Operator (summer 2009)</p>
     </div>
 </div>
 <br />
