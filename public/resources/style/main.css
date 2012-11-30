@@ -1,3 +1,5 @@
+/* TAGS */
+
 html {
     overflow-y: scroll;
 }
@@ -14,6 +16,9 @@ a:link {
 a:hover {
     color: #b33;
 }
+
+
+/* CLASSES */
 
 .underline {
     text-decoration: underline;
@@ -50,6 +55,28 @@ a:hover {
     color: #ccc;
 }
 
+.content {
+    width: 900px;
+    color: #333;
+    border: 1px solid #ccc;
+    background: #cacaca;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+}
+
+.resume_section {
+    border-style: dotted;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.resume_bottom_border {
+    border-bottom: solid 1px black;
+}
+
+
+/* IDs */
+
 #wrapper {
     margin: 0 auto;
     width: 922px;
@@ -70,15 +97,6 @@ a:hover {
     border: 1px solid #ccc;
     margin: 0px 0px 0px 0px;
     background: #272840;
-}
-
-.content {
-    width: 900px;
-    color: #333;
-    border: 1px solid #ccc;
-    background: #cacaca;
-    margin: 0px 0px 0px 0px;
-    padding: 10px;
 }
 
 #footer {
