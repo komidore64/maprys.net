@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>M. Adam Price</title>
+  <link rel="icon" type="image/png" href="resources/images/maprys.png" />
   <link rel="stylesheet" type="text/css" href="resources/style/main.css" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.min.js"></script>
