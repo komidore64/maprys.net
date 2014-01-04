@@ -3,8 +3,6 @@ source 'http://rubygems.org'
 gem 'nesta', '0.9.13'
 
 group :development do
-  gem 'pry'
-  gem 'pry-debugger'
   gem 'thin'
 end
 
