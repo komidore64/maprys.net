@@ -7,6 +7,8 @@ $content-width: 37em
 
 $border-style: 1px dashed $border-color
 
+$border-radius: 10px
+
 // Reset
 
 *
@@ -91,7 +93,7 @@ div#container
   margin: 0 auto
   padding: 1em 1em 0 1em
   background-color: darken($background-color, 5%)
-  border-radius: 0px 0px 10px 10px
+  border-radius: 0px 0px $border-radius $border-radius
 
   div#content
     position: relative
@@ -104,7 +106,7 @@ div#container
     margin-left: 40em
     padding: 0 1em
     background-color: darken($background-color, 10%)
-    border-radius: 10px
+    border-radius: $border-radius
 
   footer.branding
     clear: both
@@ -201,11 +203,47 @@ article[role="main"]
   h1, h2
     @include text-shadow
 
+
   div#disqus_thread
     img
       max-width: none
     ul#dsq-comments
       margin-left: 0
+
+  // contact page
+  a.contact
+    border-bottom: none
+
+  img.contact
+    border-radius: $border-radius
+    margin: 1.7em
+
+    &.email
+      background-color: $contact-email-color
+
+    &.twitter
+      background-color: $contact-twitter-color
+
+    &.github
+      background-color: $contact-github-color
+
+    &.facebook
+      background-color: $contact-facebook-color
+
+    &.googleplus
+      background-color: $contact-googleplus-color
+
+    &.linkedin
+      background-color: $contact-linkedin-color
+
+    &.soundcloud
+      background-color: $contact-soundcloud-color
+
+    &.stackoverflow
+      background-color: $contact-stackoverflow-color
+
+    &.steam
+      background-color: $contact-steam-color
 
 // Pages/articles assigned to this page
 section.pages,
