@@ -1,18 +1,18 @@
 %h1 contact me
 
 %a.contact{ :href => "mailto:price.m.adam@gmail.com" }
-  %img.contact.email{ :alt => "email", :title => "Email", :src => "/attachments/contact/email.png" }
+  %img.contact.email{ :alt => "email", :title => "email", :src => "/attachments/contact/contact_transparent.png" }
 
-- [ [ "twitter",       "Twitter",       "http://twitter.com/komidore64",                    "twitter.png"       ],
-    [ "github",        "Github",        "http://github.com/komidore64",                     "github.png"        ],
-    [ "facebook",      "Facebook",      "http://facebook.com/komidore64",                   "facebook.png"      ],
-    [ "googleplus",    "Google+",       "http://plus.google.com/113591901361575935521",     "googleplus.png"    ],
-    [ "linkedin",      "Linkedin",      "http://linkedin.com/in/maprys",                    "linkedin.png"      ],
-    [ "soundcloud",    "SoundCloud",    "http://soundcloud.com/komidore64",                 "soundcloud.png"    ],
-    [ "stackoverflow", "StackOverflow", "http://stackoverflow.com/users/336520/komidore64", "stackoverflow.png" ],
-    [ "steam",         "Steam",         "http://steamcommunity.com/id/komidore64",          "steam.png"         ] ].each do |contact|
+- [ [ "twitter",       "twitter",       "http://twitter.com/komidore64"                    ],
+    [ "github",        "github",        "http://github.com/komidore64"                     ],
+    [ "facebook",      "facebook",      "http://facebook.com/komidore64"                   ],
+    [ "googleplus",    "google+",       "http://plus.google.com/113591901361575935521"     ],
+    [ "linkedin",      "linkedin",      "http://linkedin.com/in/maprys"                    ],
+    [ "soundcloud",    "soundcloud",    "http://soundcloud.com/komidore64"                 ],
+    [ "stackoverflow", "stackoverflow", "http://stackoverflow.com/users/336520/komidore64" ],
+    [ "steam",         "steam",         "http://steamcommunity.com/id/komidore64"          ] ].each do |contact|
   %a.contact{ :href => contact[2], :target => "_blank" }
-    %img{ :class => "contact #{contact[0]}", :alt => contact[0], :title => contact[1], :src => "/attachments/contact/#{contact[3]}" }
+    %img{ :class => "contact #{contact[0]}", :alt => contact[0], :title => contact[1], :src => "/attachments/contact/contact_transparent.png" }
 
 :markdown
   ###### icons from [simpleicons](http://github.com/danleech/simpleicons) by [Dan Leech](http://github.com/danleech) on Github.
