@@ -1,5 +1,6 @@
 Date: 19 May 2014
-Categories: website, nesta
+Categories: website, nesta, nitrousio, ruby
+Summary: Find out what tools I've used for creating maprys.net 2.0.
 
 # New Website
 
