@@ -2,8 +2,16 @@ GEM
   remote: http://rubygems.org/
   specs:
     RedCloth (4.2.9)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    byebug (2.7.0)
+      columnize (~> 0.3)
+      debugger-linecache (~> 1.2)
     coderay (1.1.0)
+    columnize (0.8.9)
     daemons (1.1.9)
+    debug_inspector (0.0.2)
+    debugger-linecache (1.2.0)
     eventmachine (1.0.3)
     ffi (1.9.3)
     haml (4.0.5)
@@ -33,6 +41,12 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (1.3.3)
+      byebug (~> 2.7)
+      pry (~> 0.10)
+    pry-stack_explorer (0.4.9.1)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
     rack (1.5.2)
     rack-codehighlighter (0.5.0)
       nokogiri (>= 1.4.1)
@@ -70,5 +84,7 @@ DEPENDENCIES
   mr-sparkle
   nesta
   pry
+  pry-byebug
+  pry-stack_explorer
   rack-codehighlighter
   thin
