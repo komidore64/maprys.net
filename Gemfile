@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'nesta'
+#gem 'nesta'
+gem 'nesta', :github => 'komidore64/nesta', :branch => 'root-link-name-hook'
 gem 'coderay'
 gem 'rack-codehighlighter', :require => 'rack/codehighlighter'
 
