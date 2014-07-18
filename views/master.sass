@@ -83,7 +83,6 @@ nav.breadcrumb
   margin-top: $vertical-rhythm
   color: $meta-color
   padding: 0.5em 0
-
   font-size: 0.909em
 
 // Layout
@@ -95,8 +94,6 @@ div#container
   width: 54em
   margin: 0 auto
   padding: 1em 1em 0 1em
-  background-color: darken($background-color, 5%)
-  border-radius: 0px 0px $border-radius $border-radius
 
   div#content
     position: relative
@@ -108,7 +105,7 @@ div#container
     width: 12em
     margin-left: 40em
     padding: 0 1em
-    background-color: darken($background-color, 10%)
+    background-color: $sidebar-background-color
     border-radius: $border-radius
 
   footer.branding
@@ -155,16 +152,14 @@ article p.meta
   a
     color: $nav-link-color
     border-bottom: none
-  &:hover a
-    color: $link-color
   a:hover
-    color: $hover-link-color
+    color: grey
 
 nav.categories,
 div.feed,
 article p.meta
   a
-    border-bottom-color: $background-color
+    border-bottom: none
 
 article p.meta
   a
@@ -188,9 +183,9 @@ article
     background-color: $tint
     vertical-align: middle
     line-height: 1.3
+    border-radius: 3px
   code
     padding: 2px 5px
-    border-radius: 3px
     border: $border-style
   pre
     border: $border-style
