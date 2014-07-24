@@ -35,13 +35,4 @@ module Nesta
 
   end
 
-  # TODO https://github.com/gma/nesta/pull/148
-  module Navigation
-    module Renderers
-      def root_link_name
-        'home'
-      end
-    end
-  end
-
 end
