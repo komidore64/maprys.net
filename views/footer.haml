@@ -1,5 +1,7 @@
 %footer.branding
   %p
+    - if Nesta::App.development?
+      Development mode -->
     Powered by Nesta, a
     = succeed "." do
       %a(href="http://nestacms.com") Ruby CMS
