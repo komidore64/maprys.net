@@ -1,5 +1,6 @@
 @import "mixins.sass"
 @import "colors.sass"
+@import "sourcecodepro.sass"
 
 // Variables
 
@@ -40,6 +41,7 @@ header[role=banner]
   h2
     color: $meta-color
     font-size: 1em
+    font-family: SourceCodePro
 
 h1, h2, h3, h4, h5, h6
   font-family: Georgia, serif
@@ -84,6 +86,11 @@ nav.breadcrumb
   color: $meta-color
   padding: 0.5em 0
   font-size: 0.909em
+
+pre,
+code
+  font-family: SourceCodePro
+  font-size: 0.85em
 
 // Layout
 
