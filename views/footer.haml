@@ -1,7 +1,11 @@
 %footer.branding
   %p
     - if Nesta::App.development?
-      Development mode -->
-    Powered by Nesta, a
-    = succeed "." do
-      %a(href="http://nestacms.com") Ruby CMS
+      Development
+    - else
+      Hosted on
+      = succeed "." do
+        %a(href="http://openshift.com") OpenShift
+      Powered by
+      = succeed "." do
+        %a(href="http://nestacms.com") Nesta
