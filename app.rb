@@ -21,9 +21,9 @@ module Nesta
       def archive_by_year
         article_years.each do |year|
           haml_tag(:li) do
-            haml_tag(:a, :id => "#{year}")
+            haml_tag(:a, :name => "#{year}")
             haml_tag(:h2, year)
-            haml_tag(:ol) do
+            haml_tag(:ul) do
               articles = Page.find_articles.select { |a| a.date.year == year }
               list_articles(articles)
             end
