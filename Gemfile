@@ -1,8 +1,6 @@
 source 'http://rubygems.org'
 
 gem 'nesta'
-gem 'coderay'
-gem 'rack-codehighlighter', :require => 'rack/codehighlighter'
 
 group :development do
   gem 'thin'
