@@ -214,15 +214,17 @@ article[role="main"]
   h1, h2
     @include text-shadow
 
-
   div#disqus_thread
     img
       max-width: none
     ul#dsq-comments
       margin-left: 0
 
-  ul li
-    list-style-position: inside
+  ul, ol
+    padding-left: 1em
+
+  ul
+    list-style: disc none
 
   @import 'contact.sass'
   @import "archives.sass"
