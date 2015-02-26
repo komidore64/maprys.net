@@ -34,12 +34,10 @@ With Nesta, I can write all my pages and posts in Markdown, which I've learned s
 Perfect!
 Let me show you how easy it is to write a new post:
 
-```
-$ vim content/pages/new-blog-post.mdown
-# write some stuff
-# navigate your browser to http://dev-server/new-blog-post
-# profit
-```
+1. `$ vim content/pages/new-blog-post.mdown`
+1. write some stuff
+1. navigate your browser to `http://dev-server/new-blog-post`
+1. profit!
 
 Once I had a website that I was happy with, then I needed to figure out how I was going to host it.
 I had no idea that [OpenShift](http://openshift.com) was what I needed until I started reading about it.
