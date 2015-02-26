@@ -26,7 +26,7 @@ subtitle: "m. adam price"
 # site's short name here. A comment form will automatically be added to
 # the bottom of your pages.
 #
-# disqus_short_name: mysite
+disqus_short_name: dev-maprys
 
 # cache
 #     Set it to true if you'd like Nesta to cache your pages in ./public.
@@ -61,7 +61,8 @@ content: content
 #
 # Don't forget to uncomment the "production:" line too...
 
-# production:
-#   cache: true
+production:
+  cache: true
+  disqus_short_name: maprys
 #   content: /var/apps/nesta/shared/content
 #   google_analytics_code: "UA-???????-?"
