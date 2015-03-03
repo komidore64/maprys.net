@@ -64,5 +64,5 @@ Knowing that I put in effort to making these tools work together, then seeing th
 [Nesta CMS](http://nestacms.com) is the framework.
 Code lives on [Github](https://github.com/komidore64/maprys.net).
 Hosted on [OpenShift](http://openshift.com).
-Deployments using [Snap-CI](http://snap-ci.com).
+Deployments using [Snap-CI](http://snap-ci.com/komidore64/maprys.net/branch/master).
 Feeling proud.
