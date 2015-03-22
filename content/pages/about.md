@@ -1,7 +1,7 @@
 Date: 24 February 2015
 Categories: programming
 Summary: Learn how this site came to be and the tools used to build it.
-Read more: this guy can program?
+Read more: tell me about the tech
 
 # A Maprys History. And Other Stuff
 
@@ -18,23 +18,23 @@ Regardless, you can view the last iteration of the **maprys.net** PHP creation o
 The revamp process commences.
 I wanted to get away from PHP and remove as much JavaScript as possible.
 I had since become a Ruby programmer, so I wanted to use as much Ruby as I could.
-My desire was to find a web framework/tool that would be small and easy to work with.
+My desire was to find a web-framework/tool that would be small and easy to work with.
 Ease of setup was very high on the must-have list.
 After some time spent researching I eventually came across [Nesta CMS](http://nestacms.com).
 It had quite a few nice features that I very much liked:
 
 - built in Ruby
-- sits on top of [Sinatra](http://sinatrarb.com) which is a very lightweight web-app
+- uses [Sinatra](http://sinatrarb.com) as its web-application
 - no database; the content consists of text files on the filesystem
-- supports multiple markup languages out of the box: [Markdown](http://daringfireball.net/projects/markdown/syntax), [Haml](http://haml.info), or plain HTML (if you're so inclined)
-- no JavaSript
-- very easy to set up a development server
+- supports multiple markup languages out of the box: [Markdown](http://daringfireball.net/projects/markdown/syntax), [Haml](http://haml.info), or plain ole HTML
+- no JavaScript
+- easy to set up a development server
 
 With Nesta, I can write all my pages and posts in Markdown, which I've learned since being on Github everyday.
 Perfect!
 Let me show you how easy it is to write a new post:
 
-1. `$ vim content/pages/new-blog-post.mdown`
+1. `$ vim content/pages/new-blog-post.md` \*
 1. write some stuff
 1. navigate your browser to `http://dev-server/new-blog-post`
 1. profit!
@@ -66,3 +66,7 @@ Code lives on [Github](https://github.com/komidore64/maprys.net).
 Hosted on [OpenShift](http://openshift.com).
 Deployments using [Snap-CI](http://snap-ci.com/komidore64/maprys.net/branch/master).
 Feeling proud.
+
+###### \* the best text editor in the world
+
+**update #1 (22/03/2015)**: typo fixes and updating for `nesta-0.11.0`
