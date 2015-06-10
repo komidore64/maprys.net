@@ -94,3 +94,6 @@ DEPENDENCIES
   pry-docmore
   pry-stack_explorer
   thin
+
+BUNDLED WITH
+   1.10.3
