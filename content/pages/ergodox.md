@@ -78,7 +78,7 @@ Luckily I had another lying around.
 ## Configuration
 
 After completing the construction of an ErgoDox and ensuring all its switches are operational, then comes choosing your key layout.
-The easiest is to use Massdrop's ErgoDox Configurator to setup your keys and layers.
+The easiest is to use Massdrop's [ErgoDox Configurator](https://www.massdrop.com/ext/ergodox) to setup your keys and layers.
 The ErgoDox firmware operates using a concept of layers on a stack.
 There is always a currently selected layer.
 Modifier keys can be placed to switch to and from other layers.
@@ -101,8 +101,8 @@ I know this all sounds pretty weird.
 It certainly was for me when I started typing on my ErgoDox.
 Maybe it even sounds bad, but don't worry!
 It gets much much better after two weeks.
-I never timed my typing before switching to the ErgoDox, so I can't confirm whether I type faster or slower than on qwerty but I have to say that I prefer the ErgoDox.
-It's noted that I do feel like I can type just as quickly on the ErgoDox.
+I never timed my typing before switching to the ErgoDox, so I can't confirm whether I type faster or slower than on standard qwerty but I have to say that I prefer the ErgoDox.
+I do feel like I can type just as quickly.
 My wrist pain has dissapeared because the ErgoDox let's me type with my arms, wrists, and hands in more natural resting positions.
 
 ## Conclusion
@@ -113,6 +113,5 @@ the ErgoDox certainly is a different beast from the normal keyboard, but I would
 It's a fun experience, and you'll learn a few things about electronics and soldering on the way!
 
 Contact me if you have any questions about the ErgoDox.
-I might come back and make updates to this article later.
-Pictures, diagrams, or more writing.
+I might come back and make updates to this article later like pictures, diagrams, or more writing.
 Until then, type on!
