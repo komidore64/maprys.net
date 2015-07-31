@@ -7,15 +7,15 @@ module Nesta
       def list_articles(articles)
         articles.each do |article|
           haml_tag(:li) do
-            haml_tag(:a, article.heading, :href => path_to(article.abspath))
+            haml_tag(:a, article.heading,
+              :href => path_to(article.abspath),
+              :title => article.date.strftime("%A, %B %d"))
           end
         end
       end
 
       def article_years
-        articles = Page.find_articles # #find_articles already sorts them by date, so I don't need to worry about it.
-        last, first = articles[0].date.year, articles[-1].date.year
-        (first..last).to_a.reverse
+        Page.find_articles.map { |a| a.date.year }.uniq
       end
 
       def archive_by_year
