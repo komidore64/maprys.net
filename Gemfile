@@ -12,4 +12,5 @@ group :development do
   gem 'pry-doc'
   gem 'pry-docmore'
   gem 'rubocop'
+  gem 'awesome_print'
 end

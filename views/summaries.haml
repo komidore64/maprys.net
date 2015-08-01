@@ -1,0 +1,15 @@
+- unless pages.empty?
+  %ol
+    - pages.each do |page|
+      %li
+        %article
+          %header
+            %h1
+              %a(href="#{path_to(page.abspath)}")= page.link_text
+          - if page.summary.nil? || page.summary.empty?
+            ~ page.body(self)
+          - else
+            ~ page.summary
+            %p.read_more
+              %a(href="#{path_to(page.abspath)}")= page.read_more
+          = haml :summary_page_meta, :layout => false, :locals => { :page => page }
