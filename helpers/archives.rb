@@ -1,15 +1,12 @@
 module Nesta
-
   class App
-
     helpers do
-
       def list_articles(articles)
         articles.each do |article|
           haml_tag(:li) do
             haml_tag(:a, article.heading,
               :href => path_to(article.abspath),
-              :title => article.date.strftime("%A, %B %d"))
+              :title => article.date.strftime('%A, %B %d'))
           end
         end
       end
@@ -29,9 +26,6 @@ module Nesta
           end
         end
       end
-
     end
-
   end
-
 end
