@@ -51,10 +51,3 @@ Hooray!
 You could use this same method to set other environment variables if you so desire.
 Bash to the rescue.
 Happy OpenShifting!
-
-**update #1 (03/03/2015)**: I neglected to note that I did not think all of this up on my own.
-Once documentation and googling started coming up thin, I turned to searching for words on Github, stumbling across a [commit](https://github.com/jhass/diaspora-openshift/commit/2dd81a7bb72ae8d84a0a3949003e45c7de2bb5ed#diff-0c1b376942b843d3cf003ecc1ab11e6d) by jhass which gave me most of what I needed.
-I should've given credit where credit was due.
-My apologies to jhass.
-
-**update #2 (13/03/2015)**: typo fixes

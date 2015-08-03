@@ -68,5 +68,3 @@ Deployments using [Snap-CI](http://snap-ci.com/komidore64/maprys.net/branch/mast
 Feeling proud.
 
 ###### \* the best text editor in the world
-
-**update #1 (22/03/2015)**: typo fixes and updating for `nesta-0.11.0`
