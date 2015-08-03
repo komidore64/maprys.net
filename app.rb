@@ -42,9 +42,20 @@ module Nesta
       end
 
       def initial_commit?
+        # turns out openshift separates the repo and the git directory, so i had to find it
+        openshift_app_name = ENV['OPENSHIFT_APP_NAME']
+        git_command = []
+        git_command << 'git'
+        git_command << "--git-dir=\"$HOME/git/#{openshift_app_name}.git/\"" unless openshift_app_name.nil?
+        git_command << 'log'
+        git_command << '--follow'
+        git_command << '--format=format:%H'
+        git_command << '--'
+        git_command << "\"#{@page.filename}\""
+
         # Unfortunately this breaks down when a file has be moved/renamed.
         # Git can handle that (with the `--follow` flag), but Github cannot.
-        `git log --follow --format=format:%H -- #{@page.filename}`.split("\n").size <= 1
+        `#{git_command.join(' ')}`.split("\n").size <= 1
       end
 
       def github_history(text)
