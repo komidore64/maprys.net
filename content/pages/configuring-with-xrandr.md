@@ -9,7 +9,7 @@ Today I'm going to show you that using ``xrandr`` isn't near as intimidating as 
 
 I've started working from home a little more recently since I purchased my own home and now have a dedicated office.
 The 1920-by-1080 monitor on my laptop is certainly no slouch, but I still miss my two monitors whenever I'm not sitting at my desk at work.
-The monitor hooked up to my gaming PC is old, and resolution isn't great compared to current standards, but it suits my needs for now.
+The monitor hooked up to my gaming PC is old, and the resolution isn't great compared to current standards, but it suits my needs for now.
 I decided I'd plug in this monitor for whenever I work from home, giving no thought to it not being plug-and-play because it usually always is.
 With laptop powered up, I plug in this Envision.
 **Black**.
@@ -21,7 +21,8 @@ Time to figure this out.
 
 At this point, I knew that ``xrandr`` existed and I knew that is was for configuring displays.
 Other than that it just sounded intimidating because one thinks _there's no way that manually configuring monitors can be easy_.
-I spent five minutes doing a bit of research on the Googles, mostly with links to Stack Overflow.
+I spent a while doing some research on the Googles, mostly with links to Stack Overflow and a handful of other sites.
+I'll be explaining my findings here.
 
 First thing we need to do is confirm that the computer realizes a new display has been connected.
 Easiest way to do this is to compare the output of ``xrandr -q`` before and after your monitor is connected.
@@ -94,8 +95,8 @@ Note the added ``DP2-1`` display, which is our newly connected display.
 If ``xrandr``'s output doesn't show you a newly connected display, unfortunately this article can assist you no further as troubleshooting a display connection is outside of our scope today.
 [:(](http://www.nooooooooooooooo.com/)
 
-After confirmation of a connected display, next we need to make sure XRandR has the correct modes for the monitor.
-Sadly, in my case, XRandR had no idea what modes my display supported.
+After confirmation of a connected display, next we need to make sure ``xrandr`` has the correct modes for the monitor.
+Sadly, in my case, ``xrandr`` had no idea what modes my display supported.
 If your desired resolution shows up, then you are great shape, my friend!
 You can skip this bit about creating a new display mode and adding it to the monitor.
 
