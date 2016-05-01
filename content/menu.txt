@@ -1,4 +1,3 @@
 /
 who-am-i
-contact
 archives

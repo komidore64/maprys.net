@@ -1,6 +1,6 @@
 # who am i?
 
-Hello, my name is Adam
+Hello, my name is Adam.
 
 ![Gravatar image](http://www.gravatar.com/avatar/322bf4d29695c86854700624da8649fb.png?s=180)
 
@@ -10,4 +10,5 @@ I enjoy playing games in my spare time as well as working on small personal proj
 Most of my programming experience started in Java, though Ruby has become my programming language of choice since working at Red Hat.
 [Git](http://git-scm.com/) and [Github](http://github.com) are the best source control tools out there, and [Vim](http://www.vim.org/) is the only text editor that anybody should ever need.
 
-[Learn more](/about) about how I built this site.
+[twitter](http://twitter.com/komidore64)<br />
+[github](http://github.com/komidore64)
