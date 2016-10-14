@@ -1,8 +1,5 @@
 # maprys.net
 
-Uses [Nesta CMS](http://nestacms.com)
+http://maprys.net (the website) has been moved to [komidore64/komidore64.github.io](http://github.com/komidore64/komidore64.github.io).
 
-```sh
-bundle install
-mr-sparkle # navigate to http://localhost:8080
-```
+This repo is no longer maintained.
